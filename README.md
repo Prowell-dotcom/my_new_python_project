@@ -1,2 +1,1 @@
-# My New Python Project 🚀
-This project prints a greeting using Python.
+# My Python Project\n\nThis repo prints greetings using Python.
