@@ -1,3 +1,8 @@
+ul {
+  list-style-type: square;
+  padding-left: 40px;
+  color: #2f2f2f;
+}
 /* === Base Styles === */
 body {
   background-color: #fefefe;
