@@ -1,5 +1,44 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #0066cc;
+}
+
+nav {
+  background-color: #222;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+body {
+  font-family: Arial, sans-serif;
   background-color: #f0f0f0;
   text-align: center;
   padding: 50px;
