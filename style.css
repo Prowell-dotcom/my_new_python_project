@@ -1,3 +1,66 @@
+/* === Color Palette === */
+body {
+  background-color: #f4f4f4;
+  color: #333333;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #007bff;
+}
+
+a {
+  color: #004085;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Section spacing */
+section {
+  padding: 30px;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* === Dark Mode === */
+.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark-mode h1, .dark-mode h2 {
+  color: #90caf9;
+}
+
+.dark-mode a {
+  color: #80d8ff;
+}
+
+.dark-mode button {
+  background-color: #1de9b6;
+}
+
+.dark-mode button:hover {
+  background-color: #00bfa5;
+}
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
