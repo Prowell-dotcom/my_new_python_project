@@ -73,3 +73,14 @@ body.dark-mode #theme-toggle {
   background-color: #333;
   color: white;
 }
+#preloader {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: white url('https://i.gifer.com/ZZ5H.gif') no-repeat center center;
+  z-index: 9999;
+}
+.hidden {
+  display: none;
+}

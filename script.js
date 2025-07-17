@@ -28,4 +28,7 @@ toggle?.addEventListener('click', () => {
   body.classList.toggle('dark-mode');
   localStorage.setItem('darkMode', body.classList.contains('dark-mode'));
 });
+window.addEventListener("load", function () {
+  document.getElementById("preloader").classList.add("hidden");
+});
 
